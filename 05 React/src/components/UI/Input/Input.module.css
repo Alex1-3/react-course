@@ -1,0 +1,37 @@
+.control {
+  @apply mx-4 my-0 flex items-stretch flex-col;
+}
+
+.control label,
+.control input {
+  @apply block;
+}
+
+.control label {
+  @apply mb-2 font-bold flex-1 text-stone-700;
+}
+
+.control input {
+  flex: 3;
+  font: inherit;
+  padding: 0.35rem 0.35rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.control input:focus {
+  outline: none;
+  border-color: #4f005f;
+  background: #f6dbfc;
+}
+
+.control.invalid input {
+  border-color: red;
+  background: #fbdada;
+}
+@media (min-width: 768px) {
+  .control {
+    align-items: center;
+    flex-direction: row;
+  }
+}

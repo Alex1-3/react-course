@@ -1,0 +1,3 @@
+.card {
+  @apply bg-white shadow-zinc-500 shadow-sm rounded-xl mx-auto;
+}

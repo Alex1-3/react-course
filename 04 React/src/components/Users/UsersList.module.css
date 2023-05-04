@@ -1,0 +1,11 @@
+.users {
+  @apply m-auto w-11/12 max-w-2xl;
+}
+
+.users ul {
+  @apply list-none p-4;
+}
+
+.users li {
+  @apply border border-solid border-stone-800 mx-0.5 p-2;
+}

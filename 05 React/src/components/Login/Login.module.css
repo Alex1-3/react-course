@@ -1,0 +1,7 @@
+.login {
+  @apply w-11/12 max-w-2xl p-12 m-8;
+}
+
+.actions {
+  text-align: center;
+}
